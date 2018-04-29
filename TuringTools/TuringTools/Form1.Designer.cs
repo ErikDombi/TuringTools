@@ -50,7 +50,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(600, 600);
             this.pictureBox1.TabIndex = 0;
@@ -70,9 +70,9 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Red;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(239, 3);
+            this.pictureBox3.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Location = new System.Drawing.Point(193, 374);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.TabIndex = 2;
@@ -114,9 +114,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(4, 508);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 523);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(284, 33);
+            this.button1.Size = new System.Drawing.Size(300, 26);
             this.button1.TabIndex = 6;
             this.button1.Text = "Generate";
             this.button1.UseVisualStyleBackColor = true;
@@ -130,7 +132,7 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Location = new System.Drawing.Point(600, 47);
+            this.panel1.Location = new System.Drawing.Point(600, 50);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(300, 550);
             this.panel1.TabIndex = 7;
